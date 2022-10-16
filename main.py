@@ -1,3 +1,10 @@
+from funciones import(
+    borrdup,
+    ordenar,
+    eliminarimpar,
+    sumaryañadir
+)
+
 def modificar(listainicial):
     lista =borrdup(listainicial)
     lista = ordenar(lista)
